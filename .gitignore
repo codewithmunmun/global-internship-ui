@@ -1,0 +1,447 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Production builds
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.temp/
+.docusaurus/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.ftpconfig
+.ftppasswd
+.remote-sync.json
+*.sublime-*
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+__tests__/
+__mocks__/
+*.test.jsx
+*.spec.jsx
+*.test.ts
+*.spec.ts
+*.test.tsx
+*.spec.tsx
+
+# Debug logs
+debug.log
+error.log
+npm-debug.log
+
+# Misc
+*.pem
+*.key
+*.crt
+*.cert
+secrets/
+.vercel/
+.netlify/
+.firebase/
+.firebaserc
+
+# React / Vite specific
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+*.timestamp-*
+
+# Package manager specific
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+.npm
+.yarn/
+.yarnrc
+.pnpm-debug.log
+
+# TypeScript
+*.tsbuildinfo
+*.ts
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tgz
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads and downloads
+uploads/
+downloads/
+public/uploads/
+public/downloads/
+
+# Screenshots (if not versioning them)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# PDF files (if not versioning documentation)
+*.pdf
+
+# Word/Excel/PowerPoint
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# ESLint (optional - if you want to ignore cache)
+.eslintcache
+
+# Prettier (optional)
+.prettiercache
+
+# Stylelint (optional)
+.stylelintcache
+
+# Webpack
+.webpack/
+webpack-stats.json
+
+# Storybook
+storybook-static/
+docs-dist/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Jest
+.jest-cache/
+.jest/
+
+# React Router
+.routify/
+
+# Vite plugins cache
+.rollup.cache/
+
+# Parcel
+.parcel-cache/
+
+# Gatsby
+.cache/
+public/static/d/
+
+# Next.js
+.next/
+out/
+build/
+
+# Nuxt.js
+.nuxt/
+.nitro/
+
+# SvelteKit
+.svelte-kit/
+
+# Output of 'npm run build'
+*.log
+*.map
+
+# Optional: Keep lock files if using specific package manager
+# Uncomment if you want to keep package-lock.json
+# !package-lock.json
+# !yarn.lock
+# !pnpm-lock.yaml
+
+# Custom additions for Global Internship UI
+# Assets that should not be versioned
+public/assets/temp/
+src/assets/temp/
+
+# User uploads
+public/uploads/
+storage/
+
+# Session files
+sessions/
+
+# Configuration files with sensitive data
+config/development.json
+config/production.json
+config/local.json
+
+# API keys and secrets
+*.secret
+*.key
+*.pem
+*.cert
+*.crt
+
+# Firebase
+.firebase/
+google-services.json
+GoogleService-Info.plist
+
+# Sentry
+.sentryclirc
+
+# Environment specific files
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# Docker files (optional)
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes files (optional)
+*.kubeconfig
+
+# Terraform files (optional)
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Ansible files (optional)
+*.retry
+
+# Jenkins
+.jenkins/
+
+# GitHub Actions (optional - keep the workflows folder but ignore runtime files)
+.github/runtime/
+
+# Code coverage
+.nyc_output/
+coverage/
+lcov.info
+
+# ESLint and Prettier config overrides
+.eslintrc.local
+.prettierrc.local
+
+# Babel
+.babel-cache/
+
+# npm error logs
+npm-errors.log
+
+# yarn error logs
+yarn-error.log
+
+# pnpm error logs
+pnpm-error.log
+
+# TurboRepo
+.turbo/
+
+# Nx
+.nx/
+nx.json
+
+# Rush
+.rush/
+common/temp/
+
+# Lerna
+lerna-debug.log
+
+# Hardhat (for blockchain projects)
+cache/
+artifacts/
+
+# Remix
+build/
+public/build/
+
+# Redwood
+.redwood/
+web/dist/
+api/dist/
+
+# Blitz.js
+.blitz/
+.db/
+
+# Solid.js
+.solid/
+
+# Qwik
+.qwik/
+
+# Astro
+.astro/
+dist/
+
+# Eleventy
+_site/
+
+# Hugo
+resources/_gen/
+public/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Pelican
+cache/
+output/
+
+# Hexo
+db.json
+public/
+
+# Vuepress
+.vuepress/dist/
+
+# Docusaurus
+.docusaurus/
+build/
+
+# MkDocs
+site/
+
+# GitBook
+_book/
+
+# Docsify
+docs/_sidebar.md
+
+# Specific to Windows
+# Windows Image Cache
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Office temporary files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Linux temporary files
+*.part
+*~
+
+# macOS specific files
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.supported
+
+# Android specific files
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+.android/
+
+# iOS specific files
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcworkspace
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Flutter/Dart specific
+.pub-cache/
+.pub/
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.symbols
+*.lock
+
+# React Native specific
+.idea/
+.history/
+.rn_cached/

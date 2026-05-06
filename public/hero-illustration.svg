@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect x="50" y="50" width="500" height="400" rx="20" fill="url(#grad1)" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="300" cy="200" r="80" fill="#2563eb" opacity="0.2"/>
+  <circle cx="300" cy="200" r="50" fill="#2563eb" opacity="0.4"/>
+  <circle cx="300" cy="200" r="25" fill="#2563eb" opacity="0.8"/>
+  <text x="300" y="320" text-anchor="middle" fill="#1e3a8a" font-size="24" font-weight="bold" font-family="Arial">Global Internship</text>
+  <text x="300" y="350" text-anchor="middle" fill="#3b82f6" font-size="16" font-family="Arial">Build Your Future</text>
+</svg>
